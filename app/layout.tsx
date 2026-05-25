@@ -8,7 +8,6 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 export const metadata: Metadata = {
   title: "AUTOPSY — Degen Intelligence",
   description: "Two-mode degen intelligence tool. Rug Radar scores any token 0–100. Trade Autopsy dissects your worst trades and scores your reasoning.",
-  icons: { icon: "/favicon.ico" },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

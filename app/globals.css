@@ -3,9 +3,7 @@
 @theme inline {
   --color-background: #0a0a0a;
   --color-surface: #111111;
-  --color-surface-2: #181818;
-  --color-border: #222222;
-  --color-border-light: #2a2a2a;
+  --color-border: #1c1c1c;
   --color-red: #ef4444;
   --color-green: #22c55e;
   --color-yellow: #eab308;
@@ -13,17 +11,13 @@
   --font-mono: var(--font-geist-mono);
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
-
 html, body {
-  height: 100%;
   background: #0a0a0a;
   color: #ffffff;
   -webkit-font-smoothing: antialiased;
 }
 
-::selection { background: rgba(239,68,68,0.25); }
-
+::selection { background: rgba(239,68,68,0.2); }
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: #0a0a0a; }
 ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 2px; }

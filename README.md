@@ -1,4 +1,4 @@
-# AUTOPSY — Degen Intelligence
+# AUTOPSY - Degen Intelligence
 
 Two AI agent pipelines built for crypto traders who want the truth.
 
